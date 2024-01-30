@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\Http\\Controllers\\Api\\ProductController' => $baseDir . '/app/Http/Controllers/Api/ProductController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
@@ -19,6 +20,7 @@ return array(
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\ValidateSignature' => $baseDir . '/app/Http/Middleware/ValidateSignature.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
+    'App\\Models\\Product' => $baseDir . '/app/Models/Product.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',
@@ -1640,6 +1642,7 @@ return array(
     'Illuminate\\Foundation\\Console\\ScopeMakeCommand' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Console/ScopeMakeCommand.php',
     'Illuminate\\Foundation\\Console\\ServeCommand' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php',
     'Illuminate\\Foundation\\Console\\StorageLinkCommand' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Console/StorageLinkCommand.php',
+    'Illuminate\\Foundation\\Console\\StorageUnlinkCommand' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Console/StorageUnlinkCommand.php',
     'Illuminate\\Foundation\\Console\\StubPublishCommand' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Console/StubPublishCommand.php',
     'Illuminate\\Foundation\\Console\\TestMakeCommand' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Console/TestMakeCommand.php',
     'Illuminate\\Foundation\\Console\\UpCommand' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Console/UpCommand.php',
